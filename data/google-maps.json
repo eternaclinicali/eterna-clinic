@@ -1,0 +1,193 @@
+[{
+  "title": "Eterna Clinic",
+  "subTitle": null,
+  "description": null,
+  "ownerDescription": "Medicina Bio Reguladora\nMedicina Antienvejecimiento\nMedicina Estética\nMedicina Pos Bariátrica\nConsulta Medica",
+  "price": null,
+  "categoryName": "Clínica gratuita",
+  "address": "Centro Comercial Jardín Plaza, Comuna 17, Cali, Valle del Cauca, Colombia",
+  "neighborhood": "Comuna 17",
+  "street": "Centro Comercial Jardín Plaza",
+  "city": "Cali",
+  "postalCode": "760031",
+  "state": "Valle del Cauca",
+  "countryCode": "CO",
+  "website": "https://eternaclinic16.wixsite.com/eternaclinic",
+  "phone": "+57 311 7467618",
+  "phoneUnformatted": "+573117467618",
+  "claimThisBusiness": false,
+  "location": {
+    "lat": 3.3707386,
+    "lng": -76.526175
+  },
+  "locatedIn": "Centro Comercial Jardín Plaza",
+  "floor": null,
+  "plusCode": "9FCF+7G Cali, Valle del Cauca, Colombia",
+  "menu": null,
+  "servicesLink": null,
+  "totalScore": 5,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "placeId": "ChIJDSibVsehMI4RpuG4ShuxENQ",
+  "categories": [
+    "Clínica gratuita"
+  ],
+  "fid": "0x8e30a1c7569b280d:0xd410b11b4ab8e1a6",
+  "cid": "15280908266443956646",
+  "reviewsCount": 1,
+  "reviewsDistribution": {
+    "oneStar": 0,
+    "twoStar": 0,
+    "threeStar": 0,
+    "fourStar": 0,
+    "fiveStar": 1
+  },
+  "imagesCount": 0,
+  "imageCategories": [
+    "Todas",
+    "Del propietario",
+    "Street View y 360°"
+  ],
+  "scrapedAt": "2026-10-25T09:56:50.321Z",
+  "reserveTableUrl": null,
+  "googleFoodUrl": null,
+  "hotelStars": null,
+  "hotelDescription": null,
+  "checkInDate": null,
+  "checkOutDate": null,
+  "hotelAds": [],
+  "popularTimesLiveText": null,
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {},
+  "openingHours": [
+    {
+      "day": "domingo",
+      "hours": "Cerrado"
+    },
+    {
+      "day": "lunes",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "martes",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "miércoles",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "jueves",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "viernes",
+      "hours": "9 AM to 6 PM"
+    },
+    {
+      "day": "sábado",
+      "hours": "9 AM to 6 PM"
+    }
+  ],
+  "wasOpenAtScrapeTime": false,
+  "peopleAlsoSearch": [
+    {
+      "category": "También se buscó",
+      "title": "Dra. Ángela María Díaz - Eternal Clinic",
+      "reviewsCount": 7,
+      "totalScore": 4.4
+    },
+    {
+      "category": "También se buscó",
+      "title": "ETERNA JUVENTUD",
+      "reviewsCount": 0,
+      "totalScore": 0
+    },
+    {
+      "category": "También se buscó",
+      "title": "Dra. Helen Plazas | Medicina estética",
+      "reviewsCount": 3,
+      "totalScore": 5
+    },
+    {
+      "category": "También se buscó",
+      "title": "Clínica Benevita",
+      "reviewsCount": 17,
+      "totalScore": 5
+    },
+    {
+      "category": "También se buscó",
+      "title": "Alegraveneerscali",
+      "reviewsCount": 0,
+      "totalScore": 0
+    }
+  ],
+  "placesTags": [],
+  "reviewsTags": [],
+  "additionalInfo": {
+    "Accesibilidad": [
+      {
+        "Entrada accesible para personas en silla de ruedas": true
+      }
+    ],
+    "Servicios": [
+      {
+        "Sanitario": true
+      }
+    ],
+    "Planificación": [
+      {
+        "Se recomienda concertar cita": true
+      }
+    ]
+  },
+  "gasPrices": [],
+  "url": "https://www.google.com/maps/search/?api=1&query=Eterna%20Clinic&query_place_id=ChIJDSibVsehMI4RpuG4ShuxENQ",
+  "searchPageUrl": "https://www.google.com/maps/search/Eterna%20Clinic%20Cali?hl=es",
+  "searchString": "Eterna Clinic Cali",
+  "language": "es",
+  "rank": 1,
+  "isAdvertisement": false,
+  "imageUrl": "https://gz0.googleusercontent.com/grass-cs/AABkmLcfApG5avK9WpXynTUti1th4FzrXFtGq03jiqbmM9812yYO0sdja_fHQqkTsf8EZGAwdisuSl6x-38ZNUkLlmoMrI8j6ay932m9j3oH1TnSfY-jcbb5aVdsX4_e4We8gexoIAc=w411-h411-k-no",
+  "kgmid": "/g/11src9_tgg",
+  "businessProfileId": "6748362369907240490",
+  "questionsAndAnswers": [],
+  "webResults": [],
+  "tableReservationLinks": [],
+  "tableReservationProviders": [],
+  "bookingLinks": [],
+  "restaurantData": {
+    "tableReservationProvider": null
+  },
+  "ownerUpdates": [],
+  "imageUrls": [],
+  "reviews": [
+    {
+      "reviewerId": null,
+      "reviewerUrl": null,
+      "name": null,
+      "reviewerNumberOfReviews": 129,
+      "isLocalGuide": true,
+      "reviewerPhotoUrl": null,
+      "text": "Exel3nte atención  y mucho profeionalismo",
+      "textTranslated": null,
+      "publishAt": "Hace 2 años",
+      "publishedAtDate": "2024-01-31T10:47:55.641Z",
+      "likesCount": 0,
+      "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN0ellIT01nEAE",
+      "reviewUrl": null,
+      "reviewOrigin": "Google",
+      "stars": 5,
+      "rating": null,
+      "responseFromOwnerDate": null,
+      "responseFromOwnerText": null,
+      "reviewImageUrls": [],
+      "reviewContext": {},
+      "reviewDetailedRating": {},
+      "visitedIn": null,
+      "originalLanguage": "es",
+      "translatedLanguage": null
+    }
+  ],
+  "leadsEnrichment": []
+}]

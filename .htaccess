@@ -1,0 +1,33 @@
+# Eterna Clinic · configuración para Hostinger (Apache). Vercel usa vercel.json y no lee este archivo.
+Options -Indexes
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Protocolos y consultas creados desde el panel: no existe su carpeta, se sirve la plantilla y cms.js la rellena.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^protocolos/([a-z0-9-]+)/?$ /_cms/protocolo/index.html [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^consultas/([a-z0-9-]+)/?$ /_cms/consulta/index.html [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  <If "%{REQUEST_URI} =~ m#^/admin/#">
+    Header always set X-Robots-Tag "noindex, nofollow"
+    Header always set X-Frame-Options "DENY"
+    Header always set Cache-Control "no-store"
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https://*.supabase.co; connect-src 'self' https://*.supabase.co; frame-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'; object-src 'none'"
+  </If>
+  <FilesMatch "^(cms|sitio)\.js$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# Nunca servir archivos internos
+RedirectMatch 404 ^/(supabase|docs|scripts|data)(/|$)
+RedirectMatch 404 /\.env

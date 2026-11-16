@@ -1,0 +1,7 @@
+data/
+INVESTIGACION.md
+.env.local
+scripts/
+supabase/
+docs/
+.htaccess
